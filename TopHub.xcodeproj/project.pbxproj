@@ -9,24 +9,47 @@
 /* Begin PBXBuildFile section */
 		2D8AF06172A7424B053D91F7 /* Pods_TopHubTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5177DCF685861AFD09F4D8 /* Pods_TopHubTests.framework */; };
 		7AE346D22AD340330424A9AE /* Pods_TopHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDE3882AAB441805844AEA12 /* Pods_TopHub.framework */; };
+		BC8CE7901F3B075200A0CA60 /* RepositoriesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8CE78E1F3B075200A0CA60 /* RepositoriesPresenter.swift */; };
+		BC8CE7911F3B075200A0CA60 /* RepositoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8CE78F1F3B075200A0CA60 /* RepositoriesViewController.swift */; };
+		BC8CE7941F3B075A00A0CA60 /* UsersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8CE7921F3B075A00A0CA60 /* UsersPresenter.swift */; };
+		BC8CE7951F3B075A00A0CA60 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8CE7931F3B075A00A0CA60 /* UsersViewController.swift */; };
+		BC8CE79E1F3B093300A0CA60 /* DependencyAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8CE79D1F3B093300A0CA60 /* DependencyAssistant.swift */; };
+		BC8CE7A01F3B0A2C00A0CA60 /* UsersAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8CE79F1F3B0A2C00A0CA60 /* UsersAssembly.swift */; };
+		BC8CE7A21F3B12E100A0CA60 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8CE7A11F3B12E100A0CA60 /* UserTableViewCell.swift */; };
+		BC8CE7A71F3B1BF800A0CA60 /* UsersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8CE7A61F3B1BF800A0CA60 /* UsersService.swift */; };
+		BC8CE7A91F3B1E9500A0CA60 /* NetworkAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8CE7A81F3B1E9500A0CA60 /* NetworkAssistant.swift */; };
+		BC8CE7AB1F3B21D300A0CA60 /* AlamofireRequestExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8CE7AA1F3B21D300A0CA60 /* AlamofireRequestExecutor.swift */; };
+		BC8CE7B71F3B27A700A0CA60 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8CE7B51F3B27A700A0CA60 /* Repository.swift */; };
+		BC8CE7B81F3B27A700A0CA60 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8CE7B61F3B27A700A0CA60 /* User.swift */; };
+		BC8CE7BA1F3B27C700A0CA60 /* FetchUsersInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8CE7B91F3B27C700A0CA60 /* FetchUsersInteractor.swift */; };
+		BC8CE7BC1F3B27DF00A0CA60 /* FetchRepositoriesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8CE7BB1F3B27DF00A0CA60 /* FetchRepositoriesInteractor.swift */; };
+		BC8CE7BE1F3B28D100A0CA60 /* UsersNetworkAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8CE7BD1F3B28D100A0CA60 /* UsersNetworkAssistant.swift */; };
+		BC8CE7C01F3B39ED00A0CA60 /* NumberOfRepositoriesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8CE7BF1F3B39ED00A0CA60 /* NumberOfRepositoriesInteractor.swift */; };
+		BC9A57D11F3B3DC500C1577E /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9A57D01F3B3DC500C1577E /* UIImageView.swift */; };
+		BC9A57D31F3B3F9B00C1577E /* RepositoriesAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9A57D21F3B3F9B00C1577E /* RepositoriesAssembly.swift */; };
+		BC9A57DF1F3B45E100C1577E /* FetchUsersInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9A57DE1F3B45E100C1577E /* FetchUsersInteractorTests.swift */; };
+		BC9A57E11F3B45FD00C1577E /* NumberOfRepositoriesInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9A57E01F3B45FD00C1577E /* NumberOfRepositoriesInteractorTests.swift */; };
+		BC9A57E31F3B461E00C1577E /* FetchRepositoriesInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9A57E21F3B461E00C1577E /* FetchRepositoriesInteractorTests.swift */; };
+		BC9A57E51F3B462D00C1577E /* NetworkAssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9A57E41F3B462D00C1577E /* NetworkAssistantTests.swift */; };
+		BC9A57E71F3B464500C1577E /* UsersNetworkAssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9A57E61F3B464500C1577E /* UsersNetworkAssistantTests.swift */; };
+		BC9A57E91F3B572E00C1577E /* RepositoriesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9A57E81F3B572E00C1577E /* RepositoriesService.swift */; };
+		BC9A57EB1F3B58D700C1577E /* RepositoriesNetworkAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9A57EA1F3B58D700C1577E /* RepositoriesNetworkAssistant.swift */; };
+		BCC025FC1F3B5C5600A2E859 /* RepositoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC025FB1F3B5C5600A2E859 /* RepositoryTableViewCell.swift */; };
+		BCC025FE1F3B631300A2E859 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC025FD1F3B631300A2E859 /* UITableView.swift */; };
+		BCC026001F3B70BD00A2E859 /* UsersAssemblyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC025FF1F3B70BD00A2E859 /* UsersAssemblyTests.swift */; };
+		BCDA1C1E1F3B762F00E0A9C2 /* RepositoriesAssemblyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDA1C1D1F3B762F00E0A9C2 /* RepositoriesAssemblyTests.swift */; };
+		BCDA1C201F3B78B100E0A9C2 /* AlamofireRequestExecutorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDA1C1F1F3B78B100E0A9C2 /* AlamofireRequestExecutorMock.swift */; };
+		BCDA1C221F3B7B8900E0A9C2 /* RepositoriesNetworkAssistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDA1C211F3B7B8900E0A9C2 /* RepositoriesNetworkAssistantTests.swift */; };
+		BCDA1C251F3BAAA300E0A9C2 /* UITableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDA1C241F3BAAA300E0A9C2 /* UITableViewTests.swift */; };
+		BCDA1C271F3BAC7200E0A9C2 /* RepositoriesPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDA1C261F3BAC7200E0A9C2 /* RepositoriesPresenterTests.swift */; };
+		BCDA1C291F3BB46200E0A9C2 /* UsersPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDA1C281F3BB46200E0A9C2 /* UsersPresenterTests.swift */; };
 		BCF7DE3D1F3AFCFD0021FA28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF7DE3C1F3AFCFD0021FA28 /* AppDelegate.swift */; };
-		BCF7DE521F3AFCFD0021FA28 /* TopHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF7DE511F3AFCFD0021FA28 /* TopHubTests.swift */; };
-		BCF7DE5D1F3AFCFD0021FA28 /* TopHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF7DE5C1F3AFCFD0021FA28 /* TopHubUITests.swift */; };
 		BCF7DE731F3B014B0021FA28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF7DE711F3B014B0021FA28 /* LaunchScreen.storyboard */; };
 		BCF7DE741F3B014B0021FA28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF7DE721F3B014B0021FA28 /* Main.storyboard */; };
-		BCF7DE761F3B01680021FA28 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF7DE751F3B01680021FA28 /* UsersViewController.swift */; };
-		BCF7DE791F3B01A90021FA28 /* RepositoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF7DE781F3B01A90021FA28 /* RepositoriesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		BCF7DE4E1F3AFCFD0021FA28 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BCF7DE311F3AFCFD0021FA28 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BCF7DE381F3AFCFD0021FA28;
-			remoteInfo = TopHub;
-		};
-		BCF7DE591F3AFCFD0021FA28 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BCF7DE311F3AFCFD0021FA28 /* Project object */;
 			proxyType = 1;
@@ -40,18 +63,48 @@
 		61F94D0AF437240FB6A95241 /* Pods-TopHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopHub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TopHub/Pods-TopHub.debug.xcconfig"; sourceTree = "<group>"; };
 		6D866A01E195F75D88FAA0ED /* Pods-TopHubTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopHubTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TopHubTests/Pods-TopHubTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B579E92FD13383073C0328F1 /* Pods-TopHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopHub.release.xcconfig"; path = "Pods/Target Support Files/Pods-TopHub/Pods-TopHub.release.xcconfig"; sourceTree = "<group>"; };
+		BC8CE78E1F3B075200A0CA60 /* RepositoriesPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoriesPresenter.swift; sourceTree = "<group>"; };
+		BC8CE78F1F3B075200A0CA60 /* RepositoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoriesViewController.swift; sourceTree = "<group>"; };
+		BC8CE7921F3B075A00A0CA60 /* UsersPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersPresenter.swift; sourceTree = "<group>"; };
+		BC8CE7931F3B075A00A0CA60 /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		BC8CE79D1F3B093300A0CA60 /* DependencyAssistant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DependencyAssistant.swift; path = DependencyAssistant/DependencyAssistant.swift; sourceTree = "<group>"; };
+		BC8CE79F1F3B0A2C00A0CA60 /* UsersAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UsersAssembly.swift; path = DependencyAssistant/UsersAssembly.swift; sourceTree = "<group>"; };
+		BC8CE7A11F3B12E100A0CA60 /* UserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		BC8CE7A41F3B172800A0CA60 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC8CE7A61F3B1BF800A0CA60 /* UsersService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UsersService.swift; path = Services/UsersService.swift; sourceTree = "<group>"; };
+		BC8CE7A81F3B1E9500A0CA60 /* NetworkAssistant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkAssistant.swift; path = NetworkAssistant/NetworkAssistant.swift; sourceTree = "<group>"; };
+		BC8CE7AA1F3B21D300A0CA60 /* AlamofireRequestExecutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlamofireRequestExecutor.swift; path = NetworkAssistant/AlamofireRequestExecutor.swift; sourceTree = "<group>"; };
+		BC8CE7B51F3B27A700A0CA60 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		BC8CE7B61F3B27A700A0CA60 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BC8CE7B91F3B27C700A0CA60 /* FetchUsersInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FetchUsersInteractor.swift; path = Users/FetchUsersInteractor.swift; sourceTree = "<group>"; };
+		BC8CE7BB1F3B27DF00A0CA60 /* FetchRepositoriesInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FetchRepositoriesInteractor.swift; path = Repositories/FetchRepositoriesInteractor.swift; sourceTree = "<group>"; };
+		BC8CE7BD1F3B28D100A0CA60 /* UsersNetworkAssistant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UsersNetworkAssistant.swift; path = NetworkAssistant/UsersNetworkAssistant.swift; sourceTree = "<group>"; };
+		BC8CE7BF1F3B39ED00A0CA60 /* NumberOfRepositoriesInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumberOfRepositoriesInteractor.swift; path = Users/NumberOfRepositoriesInteractor.swift; sourceTree = "<group>"; };
+		BC9A57D01F3B3DC500C1577E /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImageView.swift; path = Utilities/UIImageView.swift; sourceTree = "<group>"; };
+		BC9A57D21F3B3F9B00C1577E /* RepositoriesAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RepositoriesAssembly.swift; path = DependencyAssistant/RepositoriesAssembly.swift; sourceTree = "<group>"; };
+		BC9A57DE1F3B45E100C1577E /* FetchUsersInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FetchUsersInteractorTests.swift; path = Domain/Users/FetchUsersInteractorTests.swift; sourceTree = "<group>"; };
+		BC9A57E01F3B45FD00C1577E /* NumberOfRepositoriesInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumberOfRepositoriesInteractorTests.swift; path = Domain/Users/NumberOfRepositoriesInteractorTests.swift; sourceTree = "<group>"; };
+		BC9A57E21F3B461E00C1577E /* FetchRepositoriesInteractorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FetchRepositoriesInteractorTests.swift; path = Domain/Repositories/FetchRepositoriesInteractorTests.swift; sourceTree = "<group>"; };
+		BC9A57E41F3B462D00C1577E /* NetworkAssistantTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkAssistantTests.swift; path = NetworkAssistant/NetworkAssistantTests.swift; sourceTree = "<group>"; };
+		BC9A57E61F3B464500C1577E /* UsersNetworkAssistantTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UsersNetworkAssistantTests.swift; path = NetworkAssistant/UsersNetworkAssistantTests.swift; sourceTree = "<group>"; };
+		BC9A57E81F3B572E00C1577E /* RepositoriesService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RepositoriesService.swift; path = Services/RepositoriesService.swift; sourceTree = "<group>"; };
+		BC9A57EA1F3B58D700C1577E /* RepositoriesNetworkAssistant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RepositoriesNetworkAssistant.swift; path = NetworkAssistant/RepositoriesNetworkAssistant.swift; sourceTree = "<group>"; };
+		BCC025FB1F3B5C5600A2E859 /* RepositoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryTableViewCell.swift; sourceTree = "<group>"; };
+		BCC025FD1F3B631300A2E859 /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UITableView.swift; path = Utilities/UITableView.swift; sourceTree = "<group>"; };
+		BCC025FF1F3B70BD00A2E859 /* UsersAssemblyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UsersAssemblyTests.swift; path = DependencyAssistant/UsersAssemblyTests.swift; sourceTree = "<group>"; };
+		BCDA1C1D1F3B762F00E0A9C2 /* RepositoriesAssemblyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RepositoriesAssemblyTests.swift; path = DependencyAssistant/RepositoriesAssemblyTests.swift; sourceTree = "<group>"; };
+		BCDA1C1F1F3B78B100E0A9C2 /* AlamofireRequestExecutorMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlamofireRequestExecutorMock.swift; path = NetworkAssistant/AlamofireRequestExecutorMock.swift; sourceTree = "<group>"; };
+		BCDA1C211F3B7B8900E0A9C2 /* RepositoriesNetworkAssistantTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RepositoriesNetworkAssistantTests.swift; path = NetworkAssistant/RepositoriesNetworkAssistantTests.swift; sourceTree = "<group>"; };
+		BCDA1C241F3BAAA300E0A9C2 /* UITableViewTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UITableViewTests.swift; path = Domain/Utilities/UITableViewTests.swift; sourceTree = "<group>"; };
+		BCDA1C261F3BAC7200E0A9C2 /* RepositoriesPresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RepositoriesPresenterTests.swift; path = UI/Repositories/RepositoriesPresenterTests.swift; sourceTree = "<group>"; };
+		BCDA1C281F3BB46200E0A9C2 /* UsersPresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UsersPresenterTests.swift; path = UI/Users/UsersPresenterTests.swift; sourceTree = "<group>"; };
 		BCF7DE391F3AFCFD0021FA28 /* TopHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCF7DE3C1F3AFCFD0021FA28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCF7DE4D1F3AFCFD0021FA28 /* TopHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCF7DE511F3AFCFD0021FA28 /* TopHubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopHubTests.swift; sourceTree = "<group>"; };
 		BCF7DE531F3AFCFD0021FA28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BCF7DE581F3AFCFD0021FA28 /* TopHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCF7DE5C1F3AFCFD0021FA28 /* TopHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopHubUITests.swift; sourceTree = "<group>"; };
 		BCF7DE5E1F3AFCFD0021FA28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCF7DE711F3B014B0021FA28 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Storyboards/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCF7DE721F3B014B0021FA28 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboards/Main.storyboard; sourceTree = "<group>"; };
-		BCF7DE751F3B01680021FA28 /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UsersViewController.swift; path = Controllers/UsersViewController.swift; sourceTree = "<group>"; };
-		BCF7DE781F3B01A90021FA28 /* RepositoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RepositoriesViewController.swift; path = Controllers/RepositoriesViewController.swift; sourceTree = "<group>"; };
 		BDE3882AAB441805844AEA12 /* Pods_TopHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TopHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80A8734401BF291492E37F6 /* Pods-TopHubTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopHubTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TopHubTests/Pods-TopHubTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,13 +123,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D8AF06172A7424B053D91F7 /* Pods_TopHubTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BCF7DE551F3AFCFD0021FA28 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +149,160 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BC8CE78C1F3B073400A0CA60 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				BC8CE7921F3B075A00A0CA60 /* UsersPresenter.swift */,
+				BC8CE7931F3B075A00A0CA60 /* UsersViewController.swift */,
+				BC8CE7A11F3B12E100A0CA60 /* UserTableViewCell.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		BC8CE78D1F3B073E00A0CA60 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				BC8CE78E1F3B075200A0CA60 /* RepositoriesPresenter.swift */,
+				BC8CE78F1F3B075200A0CA60 /* RepositoriesViewController.swift */,
+				BCC025FB1F3B5C5600A2E859 /* RepositoryTableViewCell.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		BC8CE7961F3B085700A0CA60 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				BC8CE7AE1F3B272F00A0CA60 /* Repositories */,
+				BC8CE7AD1F3B272500A0CA60 /* Users */,
+				BC8CE7AC1F3B271E00A0CA60 /* Entities */,
+				BC9A57CF1F3B3DA600C1577E /* Utilities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		BC8CE7A31F3B170600A0CA60 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				BC8CE7A41F3B172800A0CA60 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		BC8CE7AC1F3B271E00A0CA60 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				BC8CE7B51F3B27A700A0CA60 /* Repository.swift */,
+				BC8CE7B61F3B27A700A0CA60 /* User.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		BC8CE7AD1F3B272500A0CA60 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				BC8CE7B91F3B27C700A0CA60 /* FetchUsersInteractor.swift */,
+				BC8CE7BF1F3B39ED00A0CA60 /* NumberOfRepositoriesInteractor.swift */,
+			);
+			name = Users;
+			sourceTree = "<group>";
+		};
+		BC8CE7AE1F3B272F00A0CA60 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				BC8CE7BB1F3B27DF00A0CA60 /* FetchRepositoriesInteractor.swift */,
+			);
+			name = Repositories;
+			sourceTree = "<group>";
+		};
+		BC9A57CF1F3B3DA600C1577E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BC9A57D01F3B3DC500C1577E /* UIImageView.swift */,
+				BCC025FD1F3B631300A2E859 /* UITableView.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		BC9A57D41F3B453900C1577E /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				BCDA1C231F3BAA8B00E0A9C2 /* Utilities */,
+				BC9A57DB1F3B459700C1577E /* Users */,
+				BC9A57DA1F3B459000C1577E /* Repositories */,
+			);
+			name = Domain;
+			sourceTree = "<group>";
+		};
+		BC9A57D51F3B453E00C1577E /* NetworkAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				BC9A57E41F3B462D00C1577E /* NetworkAssistantTests.swift */,
+				BC9A57E61F3B464500C1577E /* UsersNetworkAssistantTests.swift */,
+				BCDA1C211F3B7B8900E0A9C2 /* RepositoriesNetworkAssistantTests.swift */,
+				BCDA1C1F1F3B78B100E0A9C2 /* AlamofireRequestExecutorMock.swift */,
+			);
+			name = NetworkAssistant;
+			sourceTree = "<group>";
+		};
+		BC9A57D61F3B454900C1577E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				BC9A57D81F3B457200C1577E /* Repositories */,
+				BC9A57D91F3B457800C1577E /* Users */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		BC9A57D71F3B454E00C1577E /* DependencyAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				BCC025FF1F3B70BD00A2E859 /* UsersAssemblyTests.swift */,
+				BCDA1C1D1F3B762F00E0A9C2 /* RepositoriesAssemblyTests.swift */,
+			);
+			name = DependencyAssistant;
+			sourceTree = "<group>";
+		};
+		BC9A57D81F3B457200C1577E /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				BCDA1C261F3BAC7200E0A9C2 /* RepositoriesPresenterTests.swift */,
+			);
+			name = Repositories;
+			sourceTree = "<group>";
+		};
+		BC9A57D91F3B457800C1577E /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				BCDA1C281F3BB46200E0A9C2 /* UsersPresenterTests.swift */,
+			);
+			name = Users;
+			sourceTree = "<group>";
+		};
+		BC9A57DA1F3B459000C1577E /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				BC9A57E21F3B461E00C1577E /* FetchRepositoriesInteractorTests.swift */,
+			);
+			name = Repositories;
+			sourceTree = "<group>";
+		};
+		BC9A57DB1F3B459700C1577E /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				BC9A57DE1F3B45E100C1577E /* FetchUsersInteractorTests.swift */,
+				BC9A57E01F3B45FD00C1577E /* NumberOfRepositoriesInteractorTests.swift */,
+			);
+			name = Users;
+			sourceTree = "<group>";
+		};
+		BCDA1C231F3BAA8B00E0A9C2 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BCDA1C241F3BAAA300E0A9C2 /* UITableViewTests.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
 		BCF7DE301F3AFCFD0021FA28 = {
 			isa = PBXGroup;
 			children = (
@@ -120,7 +320,6 @@
 			children = (
 				BCF7DE391F3AFCFD0021FA28 /* TopHub.app */,
 				BCF7DE4D1F3AFCFD0021FA28 /* TopHubTests.xctest */,
-				BCF7DE581F3AFCFD0021FA28 /* TopHubUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,13 +328,13 @@
 			isa = PBXGroup;
 			children = (
 				BCF7DE3C1F3AFCFD0021FA28 /* AppDelegate.swift */,
+				BC8CE7961F3B085700A0CA60 /* Domain */,
 				BCF7DE701F3B01200021FA28 /* Storyboards */,
 				BCF7DE6F1F3B011A0021FA28 /* Services */,
-				BCF7DE6E1F3B01140021FA28 /* Protocols */,
 				BCF7DE6D1F3B009A0021FA28 /* NetworkAssistant */,
-				BCF7DE6C1F3B00810021FA28 /* Assets */,
 				BCF7DE6B1F3B006F0021FA28 /* DependencyAssistant */,
-				BCF7DE6A1F3B00670021FA28 /* Controllers */,
+				BCF7DE6A1F3B00670021FA28 /* UI */,
+				BC8CE7A31F3B170600A0CA60 /* SupportingFiles */,
 			);
 			path = TopHub;
 			sourceTree = "<group>";
@@ -143,7 +342,10 @@
 		BCF7DE501F3AFCFD0021FA28 /* TopHubTests */ = {
 			isa = PBXGroup;
 			children = (
-				BCF7DE511F3AFCFD0021FA28 /* TopHubTests.swift */,
+				BC9A57D71F3B454E00C1577E /* DependencyAssistant */,
+				BC9A57D61F3B454900C1577E /* UI */,
+				BC9A57D51F3B453E00C1577E /* NetworkAssistant */,
+				BC9A57D41F3B453900C1577E /* Domain */,
 				BCF7DE531F3AFCFD0021FA28 /* Info.plist */,
 			);
 			path = TopHubTests;
@@ -152,52 +354,46 @@
 		BCF7DE5B1F3AFCFD0021FA28 /* TopHubUITests */ = {
 			isa = PBXGroup;
 			children = (
-				BCF7DE5C1F3AFCFD0021FA28 /* TopHubUITests.swift */,
 				BCF7DE5E1F3AFCFD0021FA28 /* Info.plist */,
 			);
 			path = TopHubUITests;
 			sourceTree = "<group>";
 		};
-		BCF7DE6A1F3B00670021FA28 /* Controllers */ = {
+		BCF7DE6A1F3B00670021FA28 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				BCF7DE751F3B01680021FA28 /* UsersViewController.swift */,
-				BCF7DE781F3B01A90021FA28 /* RepositoriesViewController.swift */,
+				BC8CE78D1F3B073E00A0CA60 /* Repositories */,
+				BC8CE78C1F3B073400A0CA60 /* Users */,
 			);
-			name = Controllers;
+			path = UI;
 			sourceTree = "<group>";
 		};
 		BCF7DE6B1F3B006F0021FA28 /* DependencyAssistant */ = {
 			isa = PBXGroup;
 			children = (
+				BC8CE79D1F3B093300A0CA60 /* DependencyAssistant.swift */,
+				BC8CE79F1F3B0A2C00A0CA60 /* UsersAssembly.swift */,
+				BC9A57D21F3B3F9B00C1577E /* RepositoriesAssembly.swift */,
 			);
 			name = DependencyAssistant;
-			sourceTree = "<group>";
-		};
-		BCF7DE6C1F3B00810021FA28 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Assets;
 			sourceTree = "<group>";
 		};
 		BCF7DE6D1F3B009A0021FA28 /* NetworkAssistant */ = {
 			isa = PBXGroup;
 			children = (
+				BC8CE7A81F3B1E9500A0CA60 /* NetworkAssistant.swift */,
+				BC8CE7BD1F3B28D100A0CA60 /* UsersNetworkAssistant.swift */,
+				BC9A57EA1F3B58D700C1577E /* RepositoriesNetworkAssistant.swift */,
+				BC8CE7AA1F3B21D300A0CA60 /* AlamofireRequestExecutor.swift */,
 			);
 			name = NetworkAssistant;
-			sourceTree = "<group>";
-		};
-		BCF7DE6E1F3B01140021FA28 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Protocols;
 			sourceTree = "<group>";
 		};
 		BCF7DE6F1F3B011A0021FA28 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				BC8CE7A61F3B1BF800A0CA60 /* UsersService.swift */,
+				BC9A57E81F3B572E00C1577E /* RepositoriesService.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -255,24 +451,6 @@
 			productReference = BCF7DE4D1F3AFCFD0021FA28 /* TopHubTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BCF7DE571F3AFCFD0021FA28 /* TopHubUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BCF7DE671F3AFCFD0021FA28 /* Build configuration list for PBXNativeTarget "TopHubUITests" */;
-			buildPhases = (
-				BCF7DE541F3AFCFD0021FA28 /* Sources */,
-				BCF7DE551F3AFCFD0021FA28 /* Frameworks */,
-				BCF7DE561F3AFCFD0021FA28 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BCF7DE5A1F3AFCFD0021FA28 /* PBXTargetDependency */,
-			);
-			name = TopHubUITests;
-			productName = TopHubUITests;
-			productReference = BCF7DE581F3AFCFD0021FA28 /* TopHubUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -291,12 +469,7 @@
 					BCF7DE4C1F3AFCFD0021FA28 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = J8AS95NKP2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = BCF7DE381F3AFCFD0021FA28;
-					};
-					BCF7DE571F3AFCFD0021FA28 = {
-						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = J8AS95NKP2;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						TestTargetID = BCF7DE381F3AFCFD0021FA28;
 					};
@@ -317,7 +490,6 @@
 			targets = (
 				BCF7DE381F3AFCFD0021FA28 /* TopHub */,
 				BCF7DE4C1F3AFCFD0021FA28 /* TopHubTests */,
-				BCF7DE571F3AFCFD0021FA28 /* TopHubUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -333,13 +505,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BCF7DE4B1F3AFCFD0021FA28 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BCF7DE561F3AFCFD0021FA28 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -446,9 +611,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCF7DE761F3B01680021FA28 /* UsersViewController.swift in Sources */,
-				BCF7DE791F3B01A90021FA28 /* RepositoriesViewController.swift in Sources */,
+				BC8CE7B81F3B27A700A0CA60 /* User.swift in Sources */,
+				BC8CE7A71F3B1BF800A0CA60 /* UsersService.swift in Sources */,
+				BC8CE7AB1F3B21D300A0CA60 /* AlamofireRequestExecutor.swift in Sources */,
+				BC8CE7A01F3B0A2C00A0CA60 /* UsersAssembly.swift in Sources */,
+				BC8CE7BA1F3B27C700A0CA60 /* FetchUsersInteractor.swift in Sources */,
+				BC8CE7911F3B075200A0CA60 /* RepositoriesViewController.swift in Sources */,
+				BC9A57D31F3B3F9B00C1577E /* RepositoriesAssembly.swift in Sources */,
 				BCF7DE3D1F3AFCFD0021FA28 /* AppDelegate.swift in Sources */,
+				BC8CE7C01F3B39ED00A0CA60 /* NumberOfRepositoriesInteractor.swift in Sources */,
+				BC8CE7A91F3B1E9500A0CA60 /* NetworkAssistant.swift in Sources */,
+				BC8CE7A21F3B12E100A0CA60 /* UserTableViewCell.swift in Sources */,
+				BC9A57EB1F3B58D700C1577E /* RepositoriesNetworkAssistant.swift in Sources */,
+				BC9A57D11F3B3DC500C1577E /* UIImageView.swift in Sources */,
+				BC8CE7951F3B075A00A0CA60 /* UsersViewController.swift in Sources */,
+				BC8CE79E1F3B093300A0CA60 /* DependencyAssistant.swift in Sources */,
+				BC8CE7BC1F3B27DF00A0CA60 /* FetchRepositoriesInteractor.swift in Sources */,
+				BC8CE7BE1F3B28D100A0CA60 /* UsersNetworkAssistant.swift in Sources */,
+				BCC025FC1F3B5C5600A2E859 /* RepositoryTableViewCell.swift in Sources */,
+				BCC025FE1F3B631300A2E859 /* UITableView.swift in Sources */,
+				BC8CE7901F3B075200A0CA60 /* RepositoriesPresenter.swift in Sources */,
+				BC9A57E91F3B572E00C1577E /* RepositoriesService.swift in Sources */,
+				BC8CE7941F3B075A00A0CA60 /* UsersPresenter.swift in Sources */,
+				BC8CE7B71F3B27A700A0CA60 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,15 +641,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCF7DE521F3AFCFD0021FA28 /* TopHubTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BCF7DE541F3AFCFD0021FA28 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BCF7DE5D1F3AFCFD0021FA28 /* TopHubUITests.swift in Sources */,
+				BC9A57E31F3B461E00C1577E /* FetchRepositoriesInteractorTests.swift in Sources */,
+				BCDA1C291F3BB46200E0A9C2 /* UsersPresenterTests.swift in Sources */,
+				BCC026001F3B70BD00A2E859 /* UsersAssemblyTests.swift in Sources */,
+				BC9A57E71F3B464500C1577E /* UsersNetworkAssistantTests.swift in Sources */,
+				BCDA1C201F3B78B100E0A9C2 /* AlamofireRequestExecutorMock.swift in Sources */,
+				BCDA1C271F3BAC7200E0A9C2 /* RepositoriesPresenterTests.swift in Sources */,
+				BCDA1C221F3B7B8900E0A9C2 /* RepositoriesNetworkAssistantTests.swift in Sources */,
+				BC9A57E51F3B462D00C1577E /* NetworkAssistantTests.swift in Sources */,
+				BCDA1C1E1F3B762F00E0A9C2 /* RepositoriesAssemblyTests.swift in Sources */,
+				BCDA1C251F3BAAA300E0A9C2 /* UITableViewTests.swift in Sources */,
+				BC9A57E11F3B45FD00C1577E /* NumberOfRepositoriesInteractorTests.swift in Sources */,
+				BC9A57DF1F3B45E100C1577E /* FetchUsersInteractorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,11 +663,6 @@
 			isa = PBXTargetDependency;
 			target = BCF7DE381F3AFCFD0021FA28 /* TopHub */;
 			targetProxy = BCF7DE4E1F3AFCFD0021FA28 /* PBXContainerItemProxy */;
-		};
-		BCF7DE5A1F3AFCFD0021FA28 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BCF7DE381F3AFCFD0021FA28 /* TopHub */;
-			targetProxy = BCF7DE591F3AFCFD0021FA28 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -583,9 +766,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 61F94D0AF437240FB6A95241 /* Pods-TopHub.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				BASE_URL = "https://api.github.com/";
 				DEVELOPMENT_TEAM = J8AS95NKP2;
-				INFOPLIST_FILE = TopHub/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TopHub/SupportingFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pl.blueworld.tophub.tophub;
@@ -600,10 +784,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B579E92FD13383073C0328F1 /* Pods-TopHub.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				BASE_URL = "https://api.github.com/";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = J8AS95NKP2;
-				INFOPLIST_FILE = TopHub/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TopHub/SupportingFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pl.blueworld.tophub.tophub;
@@ -620,11 +805,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = J8AS95NKP2;
 				INFOPLIST_FILE = TopHubTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pl.blueworld.tophub.TopHubTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopHub.app/TopHub";
 			};
@@ -636,6 +823,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = J8AS95NKP2;
 				INFOPLIST_FILE = TopHubTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -643,34 +831,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopHub.app/TopHub";
-			};
-			name = Release;
-		};
-		BCF7DE681F3AFCFD0021FA28 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = J8AS95NKP2;
-				INFOPLIST_FILE = TopHubUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pl.blueworld.tophub.TopHubUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = TopHub;
-			};
-			name = Debug;
-		};
-		BCF7DE691F3AFCFD0021FA28 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = J8AS95NKP2;
-				INFOPLIST_FILE = TopHubUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pl.blueworld.tophub.TopHubUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = TopHub;
 			};
 			name = Release;
 		};
@@ -700,15 +860,6 @@
 			buildConfigurations = (
 				BCF7DE651F3AFCFD0021FA28 /* Debug */,
 				BCF7DE661F3AFCFD0021FA28 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BCF7DE671F3AFCFD0021FA28 /* Build configuration list for PBXNativeTarget "TopHubUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BCF7DE681F3AFCFD0021FA28 /* Debug */,
-				BCF7DE691F3AFCFD0021FA28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

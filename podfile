@@ -2,9 +2,10 @@ use_frameworks!
 source 'https://github.com/CocoaPods/Specs.git'
 
 def pods
-    pod 'AFNetworking'
+    pod 'Alamofire'
     pod 'Swinject'
     pod 'SVProgressHUD'
+    pod 'SDWebImage'
 end
 
 target 'TopHub' do
