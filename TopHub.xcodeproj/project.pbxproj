@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D8AF06172A7424B053D91F7 /* Pods_TopHubTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5177DCF685861AFD09F4D8 /* Pods_TopHubTests.framework */; };
+		7AE346D22AD340330424A9AE /* Pods_TopHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDE3882AAB441805844AEA12 /* Pods_TopHub.framework */; };
+		BCF7DE3D1F3AFCFD0021FA28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF7DE3C1F3AFCFD0021FA28 /* AppDelegate.swift */; };
+		BCF7DE521F3AFCFD0021FA28 /* TopHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF7DE511F3AFCFD0021FA28 /* TopHubTests.swift */; };
+		BCF7DE5D1F3AFCFD0021FA28 /* TopHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF7DE5C1F3AFCFD0021FA28 /* TopHubUITests.swift */; };
+		BCF7DE731F3B014B0021FA28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF7DE711F3B014B0021FA28 /* LaunchScreen.storyboard */; };
+		BCF7DE741F3B014B0021FA28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF7DE721F3B014B0021FA28 /* Main.storyboard */; };
+		BCF7DE761F3B01680021FA28 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF7DE751F3B01680021FA28 /* UsersViewController.swift */; };
+		BCF7DE791F3B01A90021FA28 /* RepositoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF7DE781F3B01A90021FA28 /* RepositoriesViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCF7DE4E1F3AFCFD0021FA28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCF7DE311F3AFCFD0021FA28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCF7DE381F3AFCFD0021FA28;
+			remoteInfo = TopHub;
+		};
+		BCF7DE591F3AFCFD0021FA28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCF7DE311F3AFCFD0021FA28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCF7DE381F3AFCFD0021FA28;
+			remoteInfo = TopHub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D5177DCF685861AFD09F4D8 /* Pods_TopHubTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TopHubTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61F94D0AF437240FB6A95241 /* Pods-TopHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopHub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TopHub/Pods-TopHub.debug.xcconfig"; sourceTree = "<group>"; };
+		6D866A01E195F75D88FAA0ED /* Pods-TopHubTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopHubTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TopHubTests/Pods-TopHubTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B579E92FD13383073C0328F1 /* Pods-TopHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopHub.release.xcconfig"; path = "Pods/Target Support Files/Pods-TopHub/Pods-TopHub.release.xcconfig"; sourceTree = "<group>"; };
+		BCF7DE391F3AFCFD0021FA28 /* TopHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF7DE3C1F3AFCFD0021FA28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCF7DE4D1F3AFCFD0021FA28 /* TopHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF7DE511F3AFCFD0021FA28 /* TopHubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopHubTests.swift; sourceTree = "<group>"; };
+		BCF7DE531F3AFCFD0021FA28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF7DE581F3AFCFD0021FA28 /* TopHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF7DE5C1F3AFCFD0021FA28 /* TopHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopHubUITests.swift; sourceTree = "<group>"; };
+		BCF7DE5E1F3AFCFD0021FA28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCF7DE711F3B014B0021FA28 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Storyboards/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCF7DE721F3B014B0021FA28 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboards/Main.storyboard; sourceTree = "<group>"; };
+		BCF7DE751F3B01680021FA28 /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UsersViewController.swift; path = Controllers/UsersViewController.swift; sourceTree = "<group>"; };
+		BCF7DE781F3B01A90021FA28 /* RepositoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RepositoriesViewController.swift; path = Controllers/RepositoriesViewController.swift; sourceTree = "<group>"; };
+		BDE3882AAB441805844AEA12 /* Pods_TopHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TopHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80A8734401BF291492E37F6 /* Pods-TopHubTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopHubTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TopHubTests/Pods-TopHubTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCF7DE361F3AFCFD0021FA28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE346D22AD340330424A9AE /* Pods_TopHub.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF7DE4A1F3AFCFD0021FA28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D8AF06172A7424B053D91F7 /* Pods_TopHubTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF7DE551F3AFCFD0021FA28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42C045175675306FF3400FF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61F94D0AF437240FB6A95241 /* Pods-TopHub.debug.xcconfig */,
+				B579E92FD13383073C0328F1 /* Pods-TopHub.release.xcconfig */,
+				6D866A01E195F75D88FAA0ED /* Pods-TopHubTests.debug.xcconfig */,
+				F80A8734401BF291492E37F6 /* Pods-TopHubTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		781B07A92114589623086BA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDE3882AAB441805844AEA12 /* Pods_TopHub.framework */,
+				4D5177DCF685861AFD09F4D8 /* Pods_TopHubTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCF7DE301F3AFCFD0021FA28 = {
+			isa = PBXGroup;
+			children = (
+				BCF7DE3B1F3AFCFD0021FA28 /* TopHub */,
+				BCF7DE501F3AFCFD0021FA28 /* TopHubTests */,
+				BCF7DE5B1F3AFCFD0021FA28 /* TopHubUITests */,
+				BCF7DE3A1F3AFCFD0021FA28 /* Products */,
+				42C045175675306FF3400FF9 /* Pods */,
+				781B07A92114589623086BA1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BCF7DE3A1F3AFCFD0021FA28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCF7DE391F3AFCFD0021FA28 /* TopHub.app */,
+				BCF7DE4D1F3AFCFD0021FA28 /* TopHubTests.xctest */,
+				BCF7DE581F3AFCFD0021FA28 /* TopHubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCF7DE3B1F3AFCFD0021FA28 /* TopHub */ = {
+			isa = PBXGroup;
+			children = (
+				BCF7DE3C1F3AFCFD0021FA28 /* AppDelegate.swift */,
+				BCF7DE701F3B01200021FA28 /* Storyboards */,
+				BCF7DE6F1F3B011A0021FA28 /* Services */,
+				BCF7DE6E1F3B01140021FA28 /* Protocols */,
+				BCF7DE6D1F3B009A0021FA28 /* NetworkAssistant */,
+				BCF7DE6C1F3B00810021FA28 /* Assets */,
+				BCF7DE6B1F3B006F0021FA28 /* DependencyAssistant */,
+				BCF7DE6A1F3B00670021FA28 /* Controllers */,
+			);
+			path = TopHub;
+			sourceTree = "<group>";
+		};
+		BCF7DE501F3AFCFD0021FA28 /* TopHubTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCF7DE511F3AFCFD0021FA28 /* TopHubTests.swift */,
+				BCF7DE531F3AFCFD0021FA28 /* Info.plist */,
+			);
+			path = TopHubTests;
+			sourceTree = "<group>";
+		};
+		BCF7DE5B1F3AFCFD0021FA28 /* TopHubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCF7DE5C1F3AFCFD0021FA28 /* TopHubUITests.swift */,
+				BCF7DE5E1F3AFCFD0021FA28 /* Info.plist */,
+			);
+			path = TopHubUITests;
+			sourceTree = "<group>";
+		};
+		BCF7DE6A1F3B00670021FA28 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BCF7DE751F3B01680021FA28 /* UsersViewController.swift */,
+				BCF7DE781F3B01A90021FA28 /* RepositoriesViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BCF7DE6B1F3B006F0021FA28 /* DependencyAssistant */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DependencyAssistant;
+			sourceTree = "<group>";
+		};
+		BCF7DE6C1F3B00810021FA28 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		BCF7DE6D1F3B009A0021FA28 /* NetworkAssistant */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NetworkAssistant;
+			sourceTree = "<group>";
+		};
+		BCF7DE6E1F3B01140021FA28 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		BCF7DE6F1F3B011A0021FA28 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		BCF7DE701F3B01200021FA28 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BCF7DE711F3B014B0021FA28 /* LaunchScreen.storyboard */,
+				BCF7DE721F3B014B0021FA28 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCF7DE381F3AFCFD0021FA28 /* TopHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF7DE611F3AFCFD0021FA28 /* Build configuration list for PBXNativeTarget "TopHub" */;
+			buildPhases = (
+				53CEC79F4BE42A29E63759E0 /* [CP] Check Pods Manifest.lock */,
+				BCF7DE351F3AFCFD0021FA28 /* Sources */,
+				BCF7DE361F3AFCFD0021FA28 /* Frameworks */,
+				BCF7DE371F3AFCFD0021FA28 /* Resources */,
+				B48062A506D62B0B95264717 /* [CP] Embed Pods Frameworks */,
+				40AA7FE74ABEAEB0E4BAC9AA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TopHub;
+			productName = TopHub;
+			productReference = BCF7DE391F3AFCFD0021FA28 /* TopHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCF7DE4C1F3AFCFD0021FA28 /* TopHubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF7DE641F3AFCFD0021FA28 /* Build configuration list for PBXNativeTarget "TopHubTests" */;
+			buildPhases = (
+				08AE2C9D99147287C7C94583 /* [CP] Check Pods Manifest.lock */,
+				BCF7DE491F3AFCFD0021FA28 /* Sources */,
+				BCF7DE4A1F3AFCFD0021FA28 /* Frameworks */,
+				BCF7DE4B1F3AFCFD0021FA28 /* Resources */,
+				841372266EAFE93006945D69 /* [CP] Embed Pods Frameworks */,
+				B59601F9A48398836479B4C6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCF7DE4F1F3AFCFD0021FA28 /* PBXTargetDependency */,
+			);
+			name = TopHubTests;
+			productName = TopHubTests;
+			productReference = BCF7DE4D1F3AFCFD0021FA28 /* TopHubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCF7DE571F3AFCFD0021FA28 /* TopHubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF7DE671F3AFCFD0021FA28 /* Build configuration list for PBXNativeTarget "TopHubUITests" */;
+			buildPhases = (
+				BCF7DE541F3AFCFD0021FA28 /* Sources */,
+				BCF7DE551F3AFCFD0021FA28 /* Frameworks */,
+				BCF7DE561F3AFCFD0021FA28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCF7DE5A1F3AFCFD0021FA28 /* PBXTargetDependency */,
+			);
+			name = TopHubUITests;
+			productName = TopHubUITests;
+			productReference = BCF7DE581F3AFCFD0021FA28 /* TopHubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCF7DE311F3AFCFD0021FA28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Bartłomiej Semańczyk";
+				TargetAttributes = {
+					BCF7DE381F3AFCFD0021FA28 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = J8AS95NKP2;
+						ProvisioningStyle = Manual;
+					};
+					BCF7DE4C1F3AFCFD0021FA28 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = J8AS95NKP2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BCF7DE381F3AFCFD0021FA28;
+					};
+					BCF7DE571F3AFCFD0021FA28 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = J8AS95NKP2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BCF7DE381F3AFCFD0021FA28;
+					};
+				};
+			};
+			buildConfigurationList = BCF7DE341F3AFCFD0021FA28 /* Build configuration list for PBXProject "TopHub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCF7DE301F3AFCFD0021FA28;
+			productRefGroup = BCF7DE3A1F3AFCFD0021FA28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCF7DE381F3AFCFD0021FA28 /* TopHub */,
+				BCF7DE4C1F3AFCFD0021FA28 /* TopHubTests */,
+				BCF7DE571F3AFCFD0021FA28 /* TopHubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCF7DE371F3AFCFD0021FA28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF7DE731F3B014B0021FA28 /* LaunchScreen.storyboard in Resources */,
+				BCF7DE741F3B014B0021FA28 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF7DE4B1F3AFCFD0021FA28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF7DE561F3AFCFD0021FA28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08AE2C9D99147287C7C94583 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		40AA7FE74ABEAEB0E4BAC9AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TopHub/Pods-TopHub-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53CEC79F4BE42A29E63759E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		841372266EAFE93006945D69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TopHubTests/Pods-TopHubTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B48062A506D62B0B95264717 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TopHub/Pods-TopHub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B59601F9A48398836479B4C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TopHubTests/Pods-TopHubTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCF7DE351F3AFCFD0021FA28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF7DE761F3B01680021FA28 /* UsersViewController.swift in Sources */,
+				BCF7DE791F3B01A90021FA28 /* RepositoriesViewController.swift in Sources */,
+				BCF7DE3D1F3AFCFD0021FA28 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF7DE491F3AFCFD0021FA28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF7DE521F3AFCFD0021FA28 /* TopHubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF7DE541F3AFCFD0021FA28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF7DE5D1F3AFCFD0021FA28 /* TopHubUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCF7DE4F1F3AFCFD0021FA28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCF7DE381F3AFCFD0021FA28 /* TopHub */;
+			targetProxy = BCF7DE4E1F3AFCFD0021FA28 /* PBXContainerItemProxy */;
+		};
+		BCF7DE5A1F3AFCFD0021FA28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCF7DE381F3AFCFD0021FA28 /* TopHub */;
+			targetProxy = BCF7DE591F3AFCFD0021FA28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BCF7DE5F1F3AFCFD0021FA28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCF7DE601F3AFCFD0021FA28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCF7DE621F3AFCFD0021FA28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61F94D0AF437240FB6A95241 /* Pods-TopHub.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J8AS95NKP2;
+				INFOPLIST_FILE = TopHub/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.blueworld.tophub.tophub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "14b11e8f-45d6-462d-b375-a75cf36e2228";
+				PROVISIONING_PROFILE_SPECIFIER = "Universal App Development";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BCF7DE631F3AFCFD0021FA28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B579E92FD13383073C0328F1 /* Pods-TopHub.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = J8AS95NKP2;
+				INFOPLIST_FILE = TopHub/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.blueworld.tophub.tophub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b59ce0ac-f506-479f-87b1-1e6e8406bd56";
+				PROVISIONING_PROFILE_SPECIFIER = "Universal App Distribution";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BCF7DE651F3AFCFD0021FA28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D866A01E195F75D88FAA0ED /* Pods-TopHubTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J8AS95NKP2;
+				INFOPLIST_FILE = TopHubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.blueworld.tophub.TopHubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopHub.app/TopHub";
+			};
+			name = Debug;
+		};
+		BCF7DE661F3AFCFD0021FA28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F80A8734401BF291492E37F6 /* Pods-TopHubTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J8AS95NKP2;
+				INFOPLIST_FILE = TopHubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.blueworld.tophub.TopHubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopHub.app/TopHub";
+			};
+			name = Release;
+		};
+		BCF7DE681F3AFCFD0021FA28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = J8AS95NKP2;
+				INFOPLIST_FILE = TopHubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.blueworld.tophub.TopHubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TopHub;
+			};
+			name = Debug;
+		};
+		BCF7DE691F3AFCFD0021FA28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = J8AS95NKP2;
+				INFOPLIST_FILE = TopHubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.blueworld.tophub.TopHubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TopHub;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCF7DE341F3AFCFD0021FA28 /* Build configuration list for PBXProject "TopHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF7DE5F1F3AFCFD0021FA28 /* Debug */,
+				BCF7DE601F3AFCFD0021FA28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF7DE611F3AFCFD0021FA28 /* Build configuration list for PBXNativeTarget "TopHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF7DE621F3AFCFD0021FA28 /* Debug */,
+				BCF7DE631F3AFCFD0021FA28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF7DE641F3AFCFD0021FA28 /* Build configuration list for PBXNativeTarget "TopHubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF7DE651F3AFCFD0021FA28 /* Debug */,
+				BCF7DE661F3AFCFD0021FA28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF7DE671F3AFCFD0021FA28 /* Build configuration list for PBXNativeTarget "TopHubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF7DE681F3AFCFD0021FA28 /* Debug */,
+				BCF7DE691F3AFCFD0021FA28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCF7DE311F3AFCFD0021FA28 /* Project object */;
+}

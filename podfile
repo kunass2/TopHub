@@ -1,0 +1,18 @@
+use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+
+def pods
+    pod 'AFNetworking'
+    pod 'Swinject'
+    pod 'SVProgressHUD'
+end
+
+target 'TopHub' do
+    pods
+end
+
+target 'TopHubTests' do
+    pods
+end
+
+inhibit_all_warnings!
